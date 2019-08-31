@@ -15,7 +15,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/vizio/XR6M10/kernel
+TARGET_PREBUILT_KERNEL := device/vizio/XR6P10/kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
@@ -31,7 +31,7 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 
 # TWRP-Specific
-TARGET_RECOVERY_FSTAB := device/vizio/XR6M10/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/vizio/XR6P10/twrp.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 BOARD_HAS_NO_REAL_SDCARD := true
